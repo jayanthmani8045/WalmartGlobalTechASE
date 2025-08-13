@@ -33,6 +33,8 @@ The platform streamlines **shipment prioritization** for logistics operations an
 
 ---
 
+## Showcase
+
 ### UML Class Diagram
 ```mermaid
 ---
