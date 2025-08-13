@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1931BD8-48F7-3BE5-24F3-64015154E426" name="PetToys">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>E9CDD36C-2488-1765-1263-C0888F37FB83</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="product_id" id="BCDDE50C-5A19-2841-D1D7-5FA178F10655">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>D826E854-546F-9353-6184-FE4C8E8B08D9</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="material" id="6A532804-4354-A5EB-5C1A-00586DE19818">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>6891ACEB-1284-5227-EF42-9FCE09CFB5F7</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="durability" id="44748DB0-B3A7-318C-5298-92E9DC92F530">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[in years]]></commentInRDBMS>
+<generatorID>9BF964DB-91D0-CBA8-8BD6-5B32E4D41BA8</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Products_product_id" id="C9077A44-F3F8-64B2-53FC-8AC78C7D2671">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>B6AC8EF8-A6B5-DB07-A6EC-45B879F91C61</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69BD0761-C692-EEDD-AEF9-FC131FAEE6FD" referredColumn="6AD869F8-3A62-AA08-4E9B-EC4A5150FA6B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FEBF33E2-A167-900F-FDBA-A994FE71DA3E" name="PetToys_PK">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>7F5344C8-CBAE-8BBD-D550-D3141396C927</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCDDE50C-5A19-2841-D1D7-5FA178F10655"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D05D6CD1-0214-AA30-3FB5-08D49DB2CB4C" name="PetToys_Products_FK">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>8BB00ECC-F474-16BC-EA73-3F0AA73CAD3C</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9077A44-F3F8-64B2-53FC-8AC78C7D2671"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

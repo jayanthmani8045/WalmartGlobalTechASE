@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4FFA7572-D45D-00B3-1370-656A8C6D9613" name="Customer">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>77F91547-F437-8356-0669-5DA01DE9BCB5</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="customer_id" id="CA5CB5FF-5A8E-9F7E-30F6-945EAB6B01D1">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>A14F6216-11E1-A3AE-93EA-60FB668E04E4</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="A6170556-583A-9BFC-33AE-C5A9D8051DAD">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>85501F7A-4F22-9A3B-5205-D495E95A405C</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="F5D18989-414B-830F-7922-64067F214578">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>391AB1E1-6F63-D04D-581D-CAFD2BC90D59</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="307C6049-62E5-32A5-E297-8BCB172FA080">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>3E4CDB53-5103-8C80-BFB9-1DE703C36CD5</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B030A98A-EB62-69D0-6B33-7C154A9C7AB1" name="Customer_PK">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>18578B25-2704-3E72-1BD4-92F980686468</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA5CB5FF-5A8E-9F7E-30F6-945EAB6B01D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

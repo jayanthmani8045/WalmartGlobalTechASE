@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="34E3E7F3-CF6F-D112-DFB6-D7A9CE11749B" name="Products">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 21:56:50 UTC</createdTime>
+<ownerDesignName>DB</ownerDesignName>
+<engineerTo>
+<item key="5B514EEC-0990-FF09-4415-163EDF4ADBE8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="product_id" id="FE37D74A-2D7A-70FA-64E3-1D3BAB616BA7">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 21:57:09 UTC</createdTime>
+<ownerDesignName>DB</ownerDesignName>
+<engineerTo>
+<item key="5B514EEC-0990-FF09-4415-163EDF4ADBE8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="9AB07620-1BA5-777E-514D-54D961635ACC">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 21:57:33 UTC</createdTime>
+<ownerDesignName>DB</ownerDesignName>
+<engineerTo>
+<item key="5B514EEC-0990-FF09-4415-163EDF4ADBE8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="product_type" id="8ADD2E80-AB9D-E812-4FAD-13C09DBAF215">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 21:58:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[product_type = 'PetFood' / 'PetToys' / 'PetApparel']]></commentInRDBMS>
+<ownerDesignName>DB</ownerDesignName>
+<engineerTo>
+<item key="5B514EEC-0990-FF09-4415-163EDF4ADBE8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="manufacture_id" id="C74F1562-6FB0-06B7-2D49-3C327BB6F45C">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:20:17 UTC</createdTime>
+<generatorID>B34C93E1-9660-1BB9-C2F5-FB32AD644C44</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<engineerTo>
+<item key="5B514EEC-0990-FF09-4415-163EDF4ADBE8" value="true"/>
+</engineerTo>
+<referedAttribute>FE36C776-A23D-0510-0A97-C69DF53ABBC8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total_quantity" id="D9396156-6376-B401-1B48-E729436223D2">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:29:39 UTC</createdTime>
+<ownerDesignName>DB</ownerDesignName>
+<engineerTo>
+<item key="5B514EEC-0990-FF09-4415-163EDF4ADBE8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6004B758-96D6-AC53-A132-6CDF3E7941A7" name="Products PK">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 21:57:47 UTC</createdTime>
+<ownerDesignName>DB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5B514EEC-0990-FF09-4415-163EDF4ADBE8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FE37D74A-2D7A-70FA-64E3-1D3BAB616BA7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

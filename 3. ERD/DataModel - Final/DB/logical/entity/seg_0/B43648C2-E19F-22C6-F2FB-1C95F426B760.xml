@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B43648C2-E19F-22C6-F2FB-1C95F426B760" name="WalmartLocations">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:17:16 UTC</createdTime>
+<ownerDesignName>DB</ownerDesignName>
+<engineerTo>
+<item key="5B514EEC-0990-FF09-4415-163EDF4ADBE8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="location_id" id="1A48580B-F9AA-CDED-7ABC-51DF8ACA6580">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:17:34 UTC</createdTime>
+<ownerDesignName>DB</ownerDesignName>
+<engineerTo>
+<item key="5B514EEC-0990-FF09-4415-163EDF4ADBE8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="E55B071E-58E8-DDAA-14F4-753C9DD1612D">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:17:50 UTC</createdTime>
+<ownerDesignName>DB</ownerDesignName>
+<engineerTo>
+<item key="5B514EEC-0990-FF09-4415-163EDF4ADBE8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="BBB8FFA6-D477-CCF9-FD48-4030A874186F">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:18:04 UTC</createdTime>
+<ownerDesignName>DB</ownerDesignName>
+<engineerTo>
+<item key="5B514EEC-0990-FF09-4415-163EDF4ADBE8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="point_of_contact" id="A5A13CA5-DA7A-4601-EF9D-4058A282829D">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:18:21 UTC</createdTime>
+<ownerDesignName>DB</ownerDesignName>
+<engineerTo>
+<item key="5B514EEC-0990-FF09-4415-163EDF4ADBE8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D2069B4F-C377-D407-8A08-B04ACE8D0C3F" name="WalmartLocations PK">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:17:39 UTC</createdTime>
+<ownerDesignName>DB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5B514EEC-0990-FF09-4415-163EDF4ADBE8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1A48580B-F9AA-CDED-7ABC-51DF8ACA6580</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

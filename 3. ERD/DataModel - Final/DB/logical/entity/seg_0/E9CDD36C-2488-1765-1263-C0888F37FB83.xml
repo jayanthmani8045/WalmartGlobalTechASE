@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E9CDD36C-2488-1765-1263-C0888F37FB83" name="PetToys">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:04:55 UTC</createdTime>
+<ownerDesignName>DB</ownerDesignName>
+<engineerTo>
+<item key="5B514EEC-0990-FF09-4415-163EDF4ADBE8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="product_id" id="D826E854-546F-9353-6184-FE4C8E8B08D9">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:05:13 UTC</createdTime>
+<ownerDesignName>DB</ownerDesignName>
+<engineerTo>
+<item key="5B514EEC-0990-FF09-4415-163EDF4ADBE8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="material" id="6891ACEB-1284-5227-EF42-9FCE09CFB5F7">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:05:39 UTC</createdTime>
+<ownerDesignName>DB</ownerDesignName>
+<engineerTo>
+<item key="5B514EEC-0990-FF09-4415-163EDF4ADBE8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="durability" id="9BF964DB-91D0-CBA8-8BD6-5B32E4D41BA8">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:05:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[in years]]></commentInRDBMS>
+<ownerDesignName>DB</ownerDesignName>
+<engineerTo>
+<item key="5B514EEC-0990-FF09-4415-163EDF4ADBE8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="product_id1" id="B6AC8EF8-A6B5-DB07-A6EC-45B879F91C61">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:21:04 UTC</createdTime>
+<generatorID>8BB00ECC-F474-16BC-EA73-3F0AA73CAD3C</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<engineerTo>
+<item key="5B514EEC-0990-FF09-4415-163EDF4ADBE8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FE37D74A-2D7A-70FA-64E3-1D3BAB616BA7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7F5344C8-CBAE-8BBD-D550-D3141396C927" name="PetToys PK">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:07:55 UTC</createdTime>
+<ownerDesignName>DB</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5B514EEC-0990-FF09-4415-163EDF4ADBE8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D826E854-546F-9353-6184-FE4C8E8B08D9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

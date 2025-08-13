@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59BB4908-45E9-2804-2F6E-EBC8EB5E5797" name="Payment">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>87B3B77D-586D-95EA-26AF-A1AC0F5E36C3</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Payment_id" id="8891A32C-D66A-7020-4E37-84A2D5C09003">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>9A1B9E69-9843-B406-B4E6-5C228217A507</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="9C4B80B6-A0FB-22CF-6760-ADCC43129A30">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>E15DE064-E253-0C1C-49D5-A881DA1987AF</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Order_order_id" id="2C240A4D-A143-74AC-DCC8-F019FB4370F8">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>563AC5E7-9843-6828-70D6-8B5DC8CD1B66</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Order_order_id1" id="AEAB6F0C-D7B5-9652-C9EF-C505CA73B8AA">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:40:33 UTC</createdTime>
+<generatorID>58ABDDB0-0374-922D-7FB2-C68F53B4DF6B</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CEFEA574-E624-C0AD-68D3-5F2C4009D871" referredColumn="F9C02AFF-C0E0-1B2A-0726-8FE9BBD35D7C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4BFF2ED6-9922-78D0-9773-CD94684D3C10" name="Payment_PK">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>0229404F-3E21-88A7-73E4-C2AE54A5AC8A</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8891A32C-D66A-7020-4E37-84A2D5C09003"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A543690-8138-4E72-3324-88CF15C3378E" name="Payment__IDX">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<ownerDesignName>DB</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F94A8E9D-0516-E67C-25E2-78D4C5AA7CFE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2C240A4D-A143-74AC-DCC8-F019FB4370F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67E04508-E37A-96C3-B612-4581EEC4CCC5" name="Payment_Order_FK">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:40:33 UTC</createdTime>
+<generatorID>F94A8E9D-0516-E67C-25E2-78D4C5AA7CFE</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEAB6F0C-D7B5-9652-C9EF-C505CA73B8AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

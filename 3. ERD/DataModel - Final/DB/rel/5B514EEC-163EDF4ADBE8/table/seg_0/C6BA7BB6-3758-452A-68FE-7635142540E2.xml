@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6BA7BB6-3758-452A-68FE-7635142540E2" name="Relation_8">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<ownerDesignName>DB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Products_product_id" id="5385E1DF-DB70-FD27-1086-1841A8977DAB">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<ownerDesignName>DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BCD159B9-F69C-B881-02AC-2A8CA345873D" referredColumn="6AD869F8-3A62-AA08-4E9B-EC4A5150FA6B"/>
+</associations>
+</Column>
+<Column name="Order_order_id" id="1A6873C2-2B10-8862-7FA8-271DCFD8672C">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<ownerDesignName>DB</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDC233F2-8813-B854-BB26-BEA9DD0AD9F2" referredColumn="F9C02AFF-C0E0-1B2A-0726-8FE9BBD35D7C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E7B63C0-C19E-6EDA-1295-800B7F40D266" name="Relation_8_PK">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<ownerDesignName>DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5385E1DF-DB70-FD27-1086-1841A8977DAB"/>
+<colUsage columnID="1A6873C2-2B10-8862-7FA8-271DCFD8672C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E449073-1CB8-BBD0-3C80-40D830CE3905" name="Relation_8_Products_FK">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>C4D026F1-40DE-93BE-0F5B-A1C043202A95</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5385E1DF-DB70-FD27-1086-1841A8977DAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A2018D2-436A-2396-6831-B74F3510F75D" name="Relation_8_Order_FK">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>C4D026F1-40DE-93BE-0F5B-A1C043202A95</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A6873C2-2B10-8862-7FA8-271DCFD8672C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

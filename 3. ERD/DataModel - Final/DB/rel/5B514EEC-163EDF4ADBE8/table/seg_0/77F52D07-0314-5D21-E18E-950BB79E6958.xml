@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77F52D07-0314-5D21-E18E-950BB79E6958" name="Relation_15">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<ownerDesignName>DB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Products_product_id" id="3AB05B33-9CF6-92D5-2599-82A48481DA27">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<ownerDesignName>DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2F8F2A2-84BE-C9BF-1460-A73D893D7C26" referredColumn="6AD869F8-3A62-AA08-4E9B-EC4A5150FA6B"/>
+</associations>
+</Column>
+<Column name="WalmartLocations_location_id" id="080A7C47-5990-9C8E-D7F7-DD0205478070">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<ownerDesignName>DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D5E3A03-E72B-CD42-78C3-F0E85EBCED0D" referredColumn="D3CACB97-1E51-FAA0-D6CE-DF54CEB0CE88"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E6BFC84-78A6-1E6D-FD50-1067F281456D" name="Relation_15_PK">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<ownerDesignName>DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AB05B33-9CF6-92D5-2599-82A48481DA27"/>
+<colUsage columnID="080A7C47-5990-9C8E-D7F7-DD0205478070"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23BBDC05-2852-CED7-B940-A4A032749836" name="Relation_15_Products_FK">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>BFCE3F5E-AA7E-AA17-CA03-86BDA7965425</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AB05B33-9CF6-92D5-2599-82A48481DA27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FC7DA5B-8EB8-C04A-AB0A-FCE01DAA98FB" name="Relation_15_WalmartLocations_FK">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>BFCE3F5E-AA7E-AA17-CA03-86BDA7965425</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="080A7C47-5990-9C8E-D7F7-DD0205478070"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

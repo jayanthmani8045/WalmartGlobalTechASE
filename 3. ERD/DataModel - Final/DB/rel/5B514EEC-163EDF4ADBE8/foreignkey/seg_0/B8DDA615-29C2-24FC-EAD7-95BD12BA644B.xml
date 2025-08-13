@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B8DDA615-29C2-24FC-EAD7-95BD12BA644B" containerWithKeyObject="AD5AA256-41A1-4C38-68C7-62ACF78CE0F4" localFKIndex="5DDAA4CF-12F4-E662-68C1-9969180C24EF" name="Animals_Products_FK">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>0BE99F8C-8F8B-082F-E95A-7169642BDF62</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<referredTableLongName>Products</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3ED58CAB-8829-A70A-B766-82DDEE1181B1</referredTableID>
+<keyObject>7ECD4B8E-CE90-B890-F901-F9C377667E4C</keyObject>
+<referredKeyID>7ECD4B8E-CE90-B890-F901-F9C377667E4C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>product_id</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

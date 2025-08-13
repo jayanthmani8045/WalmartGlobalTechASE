@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1AE5F350-0005-B984-2AC0-8629D500E9E2" name="Order">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>5189C2AA-7355-181F-3BED-E983F32D5479</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="order_id" id="F9C02AFF-C0E0-1B2A-0726-8FE9BBD35D7C">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>E5642801-819A-B8A0-C729-E9F179FEDACC</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantity" id="6B1FA095-6832-1239-7E25-E6893290C74F">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>9E963254-0AE7-3784-47CE-3F1F7C6DA120</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Payment_Payment_id" id="2C69E4F1-C67F-138A-F6B3-31E45F6A2648">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>72FE3DA6-3FCB-EB01-25DA-67F0750DDE4A</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_customer_id" id="AB63093F-C208-729C-A8AA-783B8C047B86">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:40:33 UTC</createdTime>
+<generatorID>456DEB00-EB73-D074-0FF7-9130F6312E75</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="672F2934-84FA-59BA-D8E4-94DBF45D1016" referredColumn="CA5CB5FF-5A8E-9F7E-30F6-945EAB6B01D1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A3C27605-13FD-342C-BA9D-A756D82219DE" name="Order_PK">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<generatorID>0B9DCD26-1AD2-6B61-FE00-BA609943C3BF</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9C02AFF-C0E0-1B2A-0726-8FE9BBD35D7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38560A62-7CEF-C7AA-D8AD-8821F3D11FCC" name="Order__IDX">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:31:20 UTC</createdTime>
+<ownerDesignName>DB</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F94A8E9D-0516-E67C-25E2-78D4C5AA7CFE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2C69E4F1-C67F-138A-F6B3-31E45F6A2648"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="777DDE87-E4FB-6C58-F7F6-7CA749F5EDC5" name="Order_Customer_FK">
+<createdBy>manij</createdBy>
+<createdTime>2025-08-13 22:40:33 UTC</createdTime>
+<generatorID>A7C9C60F-2A6B-463D-E4E6-915FC7299B5E</generatorID>
+<ownerDesignName>DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB63093F-C208-729C-A8AA-783B8C047B86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
