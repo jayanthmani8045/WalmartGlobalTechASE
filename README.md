@@ -1,40 +1,39 @@
-# Walmart USA – Advanced Software Engineering Virtual Experience Program
+# Walmart Logistics & Retail Data Platform Development
 
-This repository showcases my work completed as part of the **Walmart USA Advanced Software Engineering Virtual Experience Program** on [Forage](https://www.theforage.com/), August 2025.  
-The program simulated real-world software engineering challenges faced by Walmart’s engineering teams, covering **data structures, database design, and system modeling**.
+This repository contains my work for the **Walmart Logistics & Retail Data Platform**, developed as part of a simulated real-world engineering project.  
+The platform streamlines **shipment prioritization** for logistics operations and provides a **centralized retail database** for Walmart's pet department.  
 
 ---
 
-## 📂 Project Overview
+## 🚀 Project Overview
 
-### **1. Heap Data Structure Implementation**
-- Developed an optimized **heap** in Java for Walmart’s shipping department.
-- Improved performance for priority-based shipment processing and load optimization.
-- Demonstrated **algorithmic efficiency**, **problem-solving**, and **OOP design principles**.
+### **1. Logistics Shipment Prioritization Engine**
+- Implemented an **optimized heap data structure** in Java for shipment load balancing and priority scheduling.
+- Designed for **fast retrieval** of high-priority shipments, reducing delays in logistics workflows.
 
-### **2. UML Class Diagram**
-- Designed a UML class diagram for a **data processor system**.
-- Incorporated **multiple operating modes** and **database connection handling**.
-- Ensured maintainable and scalable architecture aligned with system requirements.
+### **2. Data Processor System Architecture**
+- Created a **UML class diagram** for a modular data processor.
+- Supported multiple operating modes and seamless database connectivity for scalable data handling.
 
-### **3. Entity Relationship Diagram (ERD)**
-- Created an ERD for Walmart’s **pet department database**.
-- Modeled **products, manufacturers, customers, transactions, and shipments**.
-- Ensured **normalization** and support for complex queries.
+### **3. Retail Product Database**
+- Designed an **Entity Relationship Diagram (ERD)** for Walmart's pet department.
+- Modeled manufacturers, products, customers, transactions, and shipments with **full normalization**.
 
-### **4. Database Integration & Data Population**
-- Wrote a **Python script** to populate an SQLite database from shipping data spreadsheets.
-- Implemented robust logic to avoid duplicate records and maintain **data integrity**.
+### **4. Automated Data Ingestion**
+- Developed a **Python ETL script** to populate an SQLite database from shipping data spreadsheets.
+- Enforced **data integrity**, avoided duplicates, and logged import operations.
 
 ---
 
 ## 🛠️ Tech Stack
 - **Languages:** Java, Python
 - **Database:** SQLite
-- **Modeling Tools:** UML, ERD
+- **Design Tools:** UML, ERD
 - **Version Control:** Git
 
 ---
+
+## Showcase
 
 ### UML Class Diagram
 ```mermaid
