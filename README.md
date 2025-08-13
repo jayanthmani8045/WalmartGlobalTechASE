@@ -126,6 +126,6 @@ classDiagram
 ```
 
 ### Entity Relationship Diagram
-![ERD](https://github.com/jayanthmani8045/WalmartGlobalTechASE/blob/main/Task%203%20ERD/ERD.png?raw=true)
+![ERD](https://github.com/jayanthmani8045/WalmartGlobalTechASE/blob/main/3.%20ERD/DataModel%20-%20Final/Relational_diagram_image.png)
 
 ---
